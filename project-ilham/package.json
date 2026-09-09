@@ -1,0 +1,15 @@
+{
+  "name": "project-ilham-loma-web-design",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24.13.0 <25" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "dev": "node --watch --env-file-if-exists=.env server/index.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "export:lomba": "node scripts/export-static.mjs",
+    "start:static": "node server/static.mjs"
+  }
+}

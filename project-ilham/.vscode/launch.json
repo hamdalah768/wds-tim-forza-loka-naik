@@ -1,0 +1,1 @@
+{"version":"0.2.0","configurations":[{"name":"Jalankan LokaNaik","type":"node","request":"launch","program":"${workspaceFolder}/server/index.mjs","cwd":"${workspaceFolder}","runtimeArgs":["--env-file-if-exists=.env"],"console":"integratedTerminal","skipFiles":["<node_internals>/**"]}]}
